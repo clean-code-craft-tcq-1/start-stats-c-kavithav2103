@@ -5,7 +5,7 @@ struct Stats
 	float average;
 	float min;
 	float max;
-}s;
+};
 struct Stats compute_statistics(const float* numberset, int setlength) {
     s.average = 0;
     for (int i =0 ;i<setlength;i++)
