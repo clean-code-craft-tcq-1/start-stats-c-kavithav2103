@@ -15,4 +15,4 @@ extern int ledAlertCallCount;
 extern void emailAlerter();
 extern void ledAlerter();
 
-extern int REQUIRE (int check);
+int REQUIRE (int check);
