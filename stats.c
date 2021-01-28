@@ -1,5 +1,5 @@
 #include "stats.h"
-#include <math.h>
+
 
 struct Stats compute_statistics(const float* numberset, int setlength) {
     struct Stats s;
@@ -43,7 +43,4 @@ void check_and_alert(float maxThreshold, alerter_funcptr alerters[], struct Stat
 	}
 }
 
-int REQUIRE (int check)
-{
-	return isnan(check);
-}	
+	
